@@ -1,7 +1,7 @@
 # GIS5572BMSBProject
 This repository contains python code files that run the Huff Model in order to predict the spread of BMSB across MN cities.
 
-Execute these notebook within an ArcGIS Pro environment and in the following order:
+Execute these notebook within an ArcGIS Pro Python Notebook environment and in the following order:
 
 1. 'BMSB_Data': This notebook loads relevant data from MNGeo Commons and then cleans/reorganizes and creates the necessary tables used to run the Huff model simulation (the model used to predict whether a BMSB spreads/moves to cities within MN). If you plan to run the notebook, you should change the designated environment's workspace (Please set it to a GBD!)
 2. 'BMSB-Simulation': This notebook runs the 100 Huff simulations for 60 (monthly) timesteps. If you plan to change or calculate multiple different Huff models with varying alpha values this is the notebook you would edit (We ran this notebook 3 times where alpha = 2, alpha =1.75, alpha =1.5). Warning, this notebooks execution can take anywhere from 2 to 6 hours depending on the abilities of the computer running the simulations. 
