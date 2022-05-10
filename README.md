@@ -1,4 +1,7 @@
 # GIS5572BMSBProject
+
+Authors: Holly Leaf and Megan Marsolek
+
 This repository contains python code files that run the Huff Model in order to predict the spread of BMSB across MN cities.
 
 Execute these notebook within an ArcGIS Pro Python Notebook environment and in the following order:
