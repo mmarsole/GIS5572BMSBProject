@@ -11,7 +11,7 @@ Execute these notebook within an ArcGIS Pro environment and in the following ord
 These notebooks were executed 3 times where alpha = 2, alpha =1.75, alpha =1.5. Names of saved tables were changed and reflect the current alpha to distinguish it from other model results. After running and saving the resulting tables, we then executed "multi_geojson.py' within Google Cloud Run services to print the geojson layer for each Huff model simulation and ranked cities list. Please refer to the following link for more information on how to deploy google cloud run services: https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-python-service
 
 Access the geojson for each run model and the ranked list of cities from: 
-https://bmsb-paqfpja6oq-uc.a.run.app/ranked_cities
-https://bmsb-paqfpja6oq-uc.a.run.app/model_alpha2
-https://bmsb-paqfpja6oq-uc.a.run.app/model_alpha1_75
-https://bmsb-paqfpja6oq-uc.a.run.app/model_alpha1_5
+* https://bmsb-paqfpja6oq-uc.a.run.app/ranked_cities
+* https://bmsb-paqfpja6oq-uc.a.run.app/model_alpha2
+* https://bmsb-paqfpja6oq-uc.a.run.app/model_alpha1_75
+* https://bmsb-paqfpja6oq-uc.a.run.app/model_alpha1_5
